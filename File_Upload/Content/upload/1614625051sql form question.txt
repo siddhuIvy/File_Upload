@@ -1,0 +1,19 @@
+select getdate();
+
+
+--Adventure works starts with a
+ans: select FirstName from Person.Person where FirstName like 'a%'
+
+
+select c.FirstName,c.LastName,o.OrderDate from Customers c join Orders where c.CustID=o.CustID
+
+--column num1 + num2 
+select Id,num1,num2,(num1 + num2) as Sum_no from test
+
+--remove duplicate datas
+DELETE FROM table 
+WHERE name IN (SELECT name FROM table GROUP BY name HAVING COUNT(*) > 1)
+AND NOT id IN (SELECT min(id) FROM table GROUP BY name)
+
+--odd rows only
+select * from table where Id %2=1

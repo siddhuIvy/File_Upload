@@ -1,0 +1,8 @@
+asp dot net:
+https://csharp-video-tutorials.blogspot.com/p/aspnet-mvc-tutorial-for-beginners.html
+
+Youtube link:
+https://www.youtube.com/playlist?list=PL6n9fhu94yhVm6S8I2xd6nYz2ZORd7X2v
+
+angular js:
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
